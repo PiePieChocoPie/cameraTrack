@@ -1,0 +1,10 @@
+{
+  "name": "Авторизатор охраны",
+  "description": "автоматическая авторизация на сайте с камерами",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["webNavigation", "activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
